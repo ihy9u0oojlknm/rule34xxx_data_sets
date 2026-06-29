@@ -65,3 +65,8 @@ The columns for the DataFrame are as follows:
 - tag\_edits
 - note\_edits
 - forum\_posts
+
+
+
+##How this data was collected
+:)
