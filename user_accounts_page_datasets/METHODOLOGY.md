@@ -42,7 +42,7 @@ The keys for each user datapoint are as follows:
 
 ## PKL version
 
-This version is the pickle for a python Pandas DataFrame Object. Use pandas.read\_pickle() to load it.
+This version is the pickle for a python **Pandas DataFrame** Object. Use pandas.read\_pickle() to load it.
 
 The DataFrame it represents stores each users data in one row with each column corresponding to each datafeild.
 
