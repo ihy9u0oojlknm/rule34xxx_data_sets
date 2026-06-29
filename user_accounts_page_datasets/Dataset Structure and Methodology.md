@@ -4,7 +4,7 @@ In this file we will discuss the structing of both the JSON and PKL(DataFrame) f
 
 ## Overview
 
-The rand\_user\_data100k dataset is a collection of user data from approximately 100,000 users from the website rule34.xxx. The data stored was gathered from the **https://rule34.xxx/index.php?page=account&s=profile&uname=USER\_NAME\_HERE** page for each user.
+The rand\_user\_data100k dataset is a collection of user data from approximately 100,000 users. The data stored was gathered from the **https://rule34.xxx/index.php?page=account&s=profile&uname=USER\_NAME\_HERE** page for each user.
 
 This dataset was scraped from the site from approximately June 25th to June 26th of 2026.
 
