@@ -4,7 +4,7 @@ This dataset was scraped from the site from approximately June 25th to June 26th
 
   
 
-## For each user the following datapoints are stored:
+## For each user, the following datapoints are stored:
 
 - user-id
 - username
