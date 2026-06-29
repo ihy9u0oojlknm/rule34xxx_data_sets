@@ -6,7 +6,7 @@ This dataset was scraped from the site from approximately June 25th to June 26th
 
 ## For each user the following datapoints are stored:
 
-- user id
+- user-id
 - username
 - join date
 - level (Members, Banned, Retired, Supporter)
@@ -22,8 +22,40 @@ The "Favorite Tags" and "Record" fields from the account profile page were dropp
 
   
 
-## json version structure
+## JSON version
+
+The JSON version of the dataset uses strings of the user-ids as the keys. Connected to each user-id key is a JSON dictionary with fields for each datapoint except for user id for that user.
+
+The keys for each user datapoint are as follows:
+
+- user\_name
+- join\_date
+- posts
+- deleted\_posts
+- favorites
+- comments
+- tag\_edits
+- note\_edits
+- forum\_posts
 
   
 
-## pkl verion structure
+## PKL version
+
+This version is the pickle for a python Pandas DataFrame Object. Use pandas.read\_pickle() to load it.
+
+The DataFrame it represents stores each users data in one row with each column corresponding to each datafeild.
+
+The columns for the DataFrame are as follows:
+
+- user\_id
+- username
+- join\_date
+- level
+- posts
+- deleted\_posts
+- favorites
+- comments
+- tag\_edits
+- note\_edits
+- forum\_posts
