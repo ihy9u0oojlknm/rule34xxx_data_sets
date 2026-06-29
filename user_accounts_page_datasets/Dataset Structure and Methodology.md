@@ -6,7 +6,7 @@ In this file we will discuss the structing of both the JSON and PKL(DataFrame) f
 
 The rand\_user\_data100k dataset is a collection of user data from approximately 100,000 users. The user data was gathered from the **`https://rule34.xxx/index.php?page=account&s=profile&uname=USER_NAME_HERE`** page.
 
-This dataset was scraped from the site from approximately June 25th to June 26th of 2026.
+This dataset was scraped from the site between June 25th and June 26th of 2026 PST
 
   
 
